@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="._002_parcelable.SecondActivity"></activity>
+        <activity android:name="._003_saved_rotation.SavedActivity"></activity>
+        <activity android:name="._002_parcelable.SecondActivity" />
         <activity android:name="._002_parcelable.ParcelableActivity" />
         <activity android:name="._001_parcel.ParcelActivity" />
         <activity android:name=".MainActivity">

@@ -6,4 +6,6 @@
     <string name="main_activity">Main Activity</string>
     <string name="send">Send</string>
     <string name="second_activity">Second Activity</string>
+    <string name="save_restore">Save Restore</string>
+    <string name="counter">Counter</string>
 </resources>

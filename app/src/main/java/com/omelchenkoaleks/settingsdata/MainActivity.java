@@ -8,6 +8,7 @@ import android.view.View;
 
 import com.omelchenkoaleks.settingsdata._001_parcel.ParcelActivity;
 import com.omelchenkoaleks.settingsdata._002_parcelable.ParcelableActivity;
+import com.omelchenkoaleks.settingsdata._003_saved_rotation.SavedActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -26,6 +27,10 @@ public class MainActivity extends AppCompatActivity {
             case R.id.parcelable_button:
                 Intent parcelableIntent = new Intent(this, ParcelableActivity.class);
                 startActivity(parcelableIntent);
+                break;
+            case R.id.saved_button:
+                Intent saveRestoreIntent = new Intent(this, SavedActivity.class);
+                startActivity(saveRestoreIntent);
                 break;
         }
     }
