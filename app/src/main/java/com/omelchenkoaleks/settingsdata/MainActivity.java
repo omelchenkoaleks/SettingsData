@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.omelchenkoaleks.settingsdata._001_parcel.ParcelActivity;
+import com.omelchenkoaleks.settingsdata._002_parcelable.ParcelableActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,6 +22,10 @@ public class MainActivity extends AppCompatActivity {
             case R.id.parcel_button:
                 Intent parcelIntent = new Intent(this, ParcelActivity.class);
                 startActivity(parcelIntent);
+                break;
+            case R.id.parcelable_button:
+                Intent parcelableIntent = new Intent(this, ParcelableActivity.class);
+                startActivity(parcelableIntent);
                 break;
         }
     }

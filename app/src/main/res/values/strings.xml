@@ -2,4 +2,8 @@
     <string name="app_name">Settings Data</string>
     <string name="empty_text" />
     <string name="parcel">Parcel</string>
+    <string name="parcelable">Parcelable</string>
+    <string name="main_activity">Main Activity</string>
+    <string name="send">Send</string>
+    <string name="second_activity">Second Activity</string>
 </resources>
