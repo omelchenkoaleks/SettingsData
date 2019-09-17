@@ -8,4 +8,5 @@
     <string name="second_activity">Second Activity</string>
     <string name="save_restore">Save Restore</string>
     <string name="counter">Counter</string>
+    <string name="preference_activity">Preference Activity</string>
 </resources>
