@@ -4,18 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="8dp"
+    android:padding="16dp"
     android:background="@color/colorLightBackground"
-    tools:context="._004_preferences_settings.MainPreferenceActivity">
+    tools:context="._006_references_activity.MainActivity">
 
     <TextView
-        android:id="@+id/info_pref_text_view"
+        android:id="@+id/info_preference_activity_text_view"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        style="@style/StyleTextView"
-        android:background="@drawable/style_text_view"
-        android:layout_marginTop="120dp"
+        android:layout_height="100dp"
         android:text="@string/empty_text"
+        android:background="@drawable/style_text_view"
+        style="@style/StyleTextView"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

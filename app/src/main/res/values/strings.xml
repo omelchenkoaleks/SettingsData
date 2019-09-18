@@ -10,6 +10,7 @@
     <string name="counter">Counter</string>
     <string name="preference_activity">Preference Activity</string>
     <string name="preferences_list">Preferences List</string>
+    <string name="preference_settings">Preference Settings</string>
     <string-array name="entries">
         <item>one</item>
         <item>two</item>

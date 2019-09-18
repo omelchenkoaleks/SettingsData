@@ -1,4 +1,4 @@
-package com.omelchenkoaleks.settingsdata._004_preference_activity;
+package com.omelchenkoaleks.settingsdata._004_preferences_settings;
 
 import android.os.Bundle;
 import android.preference.PreferenceActivity;

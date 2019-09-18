@@ -9,10 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name="._006_references_activity.PrefActivity" />
+        <activity android:name="._006_references_activity.MainActivity" />
         <activity android:name="._005_preferences_list.PreferenceListActivity" />
         <activity android:name="._005_preferences_list.MainPreferencesListActivity" />
-        <activity android:name="._004_preference_activity.MyPreferenceActivity" />
-        <activity android:name="._004_preference_activity.MainPreferenceActivity" />
+        <activity android:name="._004_preferences_settings.MyPreferenceActivity" />
+        <activity android:name="._004_preferences_settings.MainPreferenceActivity" />
         <activity android:name="._003_saved_rotation.SavedActivity" />
         <activity android:name="._002_parcelable.SecondActivity" />
         <activity android:name="._002_parcelable.ParcelableActivity" />
