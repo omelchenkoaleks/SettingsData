@@ -11,6 +11,7 @@
     <string name="preference_activity">Preference Activity</string>
     <string name="preferences_list">Preferences List</string>
     <string name="preference_settings">Preference Settings</string>
+    <string name="programmatically">Programmatically</string>
     <string-array name="entries">
         <item>one</item>
         <item>two</item>

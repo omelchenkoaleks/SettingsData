@@ -11,6 +11,7 @@ import com.omelchenkoaleks.settingsdata._002_parcelable.ParcelableActivity;
 import com.omelchenkoaleks.settingsdata._003_saved_rotation.SavedActivity;
 import com.omelchenkoaleks.settingsdata._004_preferences_settings.MainPreferenceActivity;
 import com.omelchenkoaleks.settingsdata._005_preferences_list.MainPreferencesListActivity;
+import com.omelchenkoaleks.settingsdata._007_programmatically_preferences.ProgrammaticallyActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -46,6 +47,10 @@ public class MainActivity extends AppCompatActivity {
             case R.id.main_activity_006_button:
                 Intent preferenceActivityIntent = new Intent(this, com.omelchenkoaleks.settingsdata._006_references_activity.MainActivity.class);
                 startActivity(preferenceActivityIntent);
+                break;
+            case R.id.programmatically_button:
+                Intent programmaticallyIntent = new Intent(this, ProgrammaticallyActivity.class);
+                startActivity(programmaticallyIntent);
                 break;
         }
     }

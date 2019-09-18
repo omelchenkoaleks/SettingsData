@@ -84,4 +84,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/main_preference_list_button" />
 
+    <Button
+        android:id="@+id/programmatically_button"
+        style="@style/StyleMainButtons"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/style_main_buttons"
+        android:onClick="onActivity"
+        android:text="@string/programmatically"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/main_activity_006_button" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
