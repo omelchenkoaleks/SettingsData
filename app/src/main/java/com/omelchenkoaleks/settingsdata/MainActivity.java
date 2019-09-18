@@ -10,6 +10,7 @@ import com.omelchenkoaleks.settingsdata._001_parcel.ParcelActivity;
 import com.omelchenkoaleks.settingsdata._002_parcelable.ParcelableActivity;
 import com.omelchenkoaleks.settingsdata._003_saved_rotation.SavedActivity;
 import com.omelchenkoaleks.settingsdata._004_preference_activity.MainPreferenceActivity;
+import com.omelchenkoaleks.settingsdata._005_preferences_list.MainPreferencesListActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -36,6 +37,10 @@ public class MainActivity extends AppCompatActivity {
             case R.id.main_preference_button:
                 Intent mainPreferenceIntent = new Intent(this, MainPreferenceActivity.class);
                 startActivity(mainPreferenceIntent);
+                break;
+            case R.id.main_preference_list_button:
+                Intent mainPreferenceListIntent = new Intent(this, MainPreferencesListActivity.class);
+                startActivity(mainPreferenceListIntent);
                 break;
         }
     }
