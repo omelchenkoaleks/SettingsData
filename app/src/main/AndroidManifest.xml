@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name="._008_data_storage_sharedpreferences.SharedPreferencesActivity" />
         <activity android:name="._007_programmatically_preferences.ProgrammaticallyPreferenceActivity" />
         <activity android:name="._007_programmatically_preferences.ProgrammaticallyActivity" />
         <activity android:name="._006_references_activity.PrefActivity" />

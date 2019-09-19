@@ -12,6 +12,10 @@
     <string name="preferences_list">Preferences List</string>
     <string name="preference_settings">Preference Settings</string>
     <string name="programmatically">Programmatically</string>
+    <string name="data">data</string>
+    <string name="save">Save</string>
+    <string name="load">Load</string>
+    <string name="sharedpreferences">SharedPreferences</string>
     <string-array name="entries">
         <item>one</item>
         <item>two</item>
