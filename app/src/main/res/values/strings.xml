@@ -15,7 +15,7 @@
     <string name="data">data</string>
     <string name="save">Save</string>
     <string name="load">Load</string>
-    <string name="sharedpreferences">SharedPreferences</string>
+    <string name="shared_preferences">SharedPreferences</string>
     <string-array name="entries">
         <item>one</item>
         <item>two</item>
@@ -26,4 +26,11 @@
         <item>2</item>
         <item>3</item>
     </string-array>
+
+    // File
+    <string name="write_file">Write file</string>
+    <string name="read_file">Read file</string>
+    <string name="write_file_sd">Write file on SD</string>
+    <string name="read_file_sd">Read file from SD</string>
+    <string name="working_with_file">Working with file</string>
 </resources>
