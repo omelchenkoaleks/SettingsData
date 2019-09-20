@@ -13,7 +13,8 @@ import com.omelchenkoaleks.settingsdata._004_preferences_settings.MainPreference
 import com.omelchenkoaleks.settingsdata._005_preferences_list.MainPreferencesListActivity;
 import com.omelchenkoaleks.settingsdata._007_programmatically_preferences.ProgrammaticallyActivity;
 import com.omelchenkoaleks.settingsdata._008_data_storage_sharedpreferences.SharedPreferencesActivity;
-import com.omelchenkoaleks.settingsdata.working_with_file.WithFileActivity;
+import com.omelchenkoaleks.settingsdata._009_working_with_file.WithFileActivity;
+import com.omelchenkoaleks.settingsdata._010_xml_parsing.XmlParsingActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -61,6 +62,10 @@ public class MainActivity extends AppCompatActivity {
             case R.id.working_file_button:
                 Intent workingFileIntent = new Intent(this, WithFileActivity.class);
                 startActivity(workingFileIntent);
+                break;
+            case R.id.xml_parsing_button:
+                Intent xmlParsingIntent = new Intent(this, XmlParsingActivity.class);
+                startActivity(xmlParsingIntent);
                 break;
         }
     }
